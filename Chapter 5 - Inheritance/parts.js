@@ -27,6 +27,7 @@ var eventuality = function (that) {
         }
         return this;
     };
+    
     that.on = function (type, method, parameters) {
         // Register an event. Make a handler record. Put it in a handler array, making one if it doesn't exist for this type.
         var handler = {
